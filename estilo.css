@@ -1,13 +1,22 @@
-
+/* ################################
+		ROOT
+################################### */
 body{
 	margin: 0 auto;
 	padding: 0;
 }
 
+
+/* ################################
+		CLASSES
+################################### */
+
+
 .conteiner{
-	border: 2px solid #ff0000;
+	
 	width: 100%;
 	min-width: 1024px;
+	display: table;
 }
 
 .menuBar{
@@ -15,13 +24,64 @@ body{
 	background-color: #e74809;
 }
 
+.header{
+	width: 100%;
+	min-width: 1024px;
+
+}
+
+.corpo{
+	width: 100%;
+	min-width: 1024px;
+	display: table;
+
+}
+
+
+.boxLeft {
+	float: left;
+	width: 65%;
+	padding: 0px 20px 45px 30px;
+	margin: 0px 10px 0px 0px;
+}
+
+
+.boxRight {
+	float: left;
+	width: 25%;
+	padding: 0px 20px 20px 20px;
+}
+
+.small{
+	float: left;
+	padding: 7px;
+	margin: 10px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0px 0px 15px #ccc;
+}
+
+
+.titulos{
+	font-family: arial;
+	font-size: 25px;
+	color: #ff3300;
+	font-style: italic;	
+}
+
+
+/* ################################
+		IDs
+################################### */
+
+
+
 #linkMenu {
 	width: 50%;
 	min-width: 540px;
 	text-align: center;
 	padding: 15px 0px 15px 0px;
 	float: right;
-
+	
 }
 
 	#linkMenu a:link {
@@ -42,40 +102,47 @@ body{
 		padding: 0px 35px 0px 35px;
 	}
 
-.header{
-	width: 100%;
-	min-width: 1024px;
-
-}
-	#logo {
-		float: left;
-		max-height: 137px;
-		padding: 20px 0px 20px 20px;
+	
+	#linkMenu a:visited {
+		font-family: arial;
+		font-style: italic;
+		font-size: 18px;
+		color: #fff;
+		padding: 0px 35px 0px 35px;
 	}
 
-	#ad {
-		float: right;
-		padding: 30px 20px 30px 20px;
-	}
 
-.boxLeft {
+#logo {
 	float: left;
-	width: 65%;
-	padding: 0px 30px 45px 30px;
-
+	max-height: 137px;
+	padding: 20px 0px 20px 20px;
 }
 
-.boxRight {
-	width: 26%;
+#ad {
 	float: right;
-	padding: 0px 25px 25px 25px;
-
-
+	padding: 30px 20px 30px 20px;
 }
 
+
+#destaques{
+	text-align: justify;
+	text-indent: 30px;
+	font-family: arial;
+	font-style: italic;
+	font-size: 16px;
+}
+
+	
 #dep {
-	border: dashed 1px #ccc;
+	padding: 15px 15px 15px 15px;
 	margin: 0px 0px 30px 0px;
+	box-shadow: -5px 5px 25px #5d5c5c;
+	border-radius: 15px 15px 15px 15px;
+	text-align: justify;
+	text-indent: 30px;
+	font-family: arial;
+	font-style: italic;
+	font-size: 16px;
 }
 
 #social {
